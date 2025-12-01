@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "question": "Who are the parties in this contract?",
+    "expected_answer": "Should list all party names and their roles (e.g., Buyer, Seller)",
+    "expected_keywords": ["party", "parties", "buyer", "seller", "vendor", "customer"],
+    "document_type": "service_agreement"
+  },
+  {
+    "id": 2,
+    "question": "What is the effective date of this agreement?",
+    "expected_answer": "Should provide the contract start date",
+    "expected_keywords": ["date", "effective", "commence"],
+    "document_type": "all"
+  },
+  {
+    "id": 3,
+    "question": "What are the payment terms?",
+    "expected_answer": "Should describe payment schedule, amounts, and due dates",
+    "expected_keywords": ["payment", "net", "days", "invoice", "due"],
+    "document_type": "service_agreement"
+  },
+  {
+    "id": 4,
+    "question": "How can either party terminate this contract?",
+    "expected_answer": "Should explain termination conditions and notice periods",
+    "expected_keywords": ["terminate", "termination", "notice", "days", "written"],
+    "document_type": "all"
+  },
+  {
+    "id": 5,
+    "question": "Is there an auto-renewal clause?",
+    "expected_answer": "Yes/No with details about renewal terms and cancellation notice",
+    "expected_keywords": ["renewal", "renew", "automatically", "cancel", "notice"],
+    "document_type": "all"
+  },
+  {
+    "id": 6,
+    "question": "What is the liability cap?",
+    "expected_answer": "Should state the maximum liability amount and currency",
+    "expected_keywords": ["liability", "cap", "limit", "maximum", "exceed"],
+    "document_type": "service_agreement"
+  },
+  {
+    "id": 7,
+    "question": "What are the confidentiality obligations?",
+    "expected_answer": "Should describe what information is confidential and for how long",
+    "expected_keywords": ["confidential", "confidentiality", "disclose", "secret", "protect"],
+    "document_type": "nda"
+  },
+  {
+    "id": 8,
+    "question": "What law governs this contract?",
+    "expected_answer": "Should specify the governing law jurisdiction (state/country)",
+    "expected_keywords": ["governed", "governing", "law", "jurisdiction", "state"],
+    "document_type": "all"
+  },
+  {
+    "id": 9,
+    "question": "Who signed this document?",
+    "expected_answer": "Should list signatory names and titles",
+    "expected_keywords": ["signed", "signature", "signatory", "authorized"],
+    "document_type": "all"
+  },
+  {
+    "id": 10,
+    "question": "What are the indemnification terms?",
+    "expected_answer": "Should explain who indemnifies whom and for what",
+    "expected_keywords": ["indemnify", "indemnification", "hold harmless", "defend"],
+    "document_type": "service_agreement"
+  }
+]
